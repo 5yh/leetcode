@@ -1,0 +1,3 @@
+D:/myCode/leetcode/build/CMakeFiles/testWei.dir
+D:/myCode/leetcode/build/CMakeFiles/edit_cache.dir
+D:/myCode/leetcode/build/CMakeFiles/rebuild_cache.dir
