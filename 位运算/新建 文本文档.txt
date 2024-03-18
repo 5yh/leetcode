@@ -1,0 +1,5 @@
+__builtin_popcount
+
+x&(x-1)
+x&-x
+bit[i]=bit[i>>1]+(i&1)
