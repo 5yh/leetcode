@@ -1,20 +1,38 @@
 class RandomizedSet
 {
 public:
+    unordered_set<int> a1;
     RandomizedSet()
     {
     }
 
     bool insert(int val)
     {
+        if (a1.find(val) != a1.end())
+        {
+            return false;
+        }
+        else
+        {
+            a1.insert(val);
+        }
+        return true;
     }
 
     bool remove(int val)
     {
+        if (a1.find(val) != a1.end())
+        {
+            a1.erase(val);
+            return true;
+        }
+        return false;
     }
 
     int getRandom()
     {
+        auto it = a1.begin();
+        return *it;
     }
 };
 
